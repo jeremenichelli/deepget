@@ -1,0 +1,35 @@
+{
+  "name": "dget",
+  "version": "0.0.1",
+  "description": " Small package to get deep nested properties from JavaScript objects",
+  "main": "dist/dget.js",
+  "browser": "dist/dget.umd.js",
+  "module": "dist/dget.m.js",
+  "scripts": {
+    "test": "echo \"No tests written yet\" && exit 0",
+    "start": "microbundle watch",
+    "build": "microbundle --entry ./src/deepget.js --name='dget'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremenichelli/deepget.git"
+  },
+  "keywords": [
+    "deep",
+    "get",
+    "nested",
+    "properties",
+    "object",
+    "javascript",
+    "helpers"
+  ],
+  "author": "Jeremias Menichelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremenichelli/deepget/issues"
+  },
+  "homepage": "https://github.com/jeremenichelli/deepget#readme",
+  "devDependencies": {
+    "microbundle": "^0.4.4"
+  }
+}
