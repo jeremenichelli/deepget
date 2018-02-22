@@ -1,10 +1,10 @@
 {
-  "name": "deepget",
-  "version": "0.0.1",
+  "name": "dpgt",
+  "version": "0.0.2",
   "description": "Small package to get deep nested properties from JavaScript objects",
-  "main": "dist/deepget.js",
-  "browser": "dist/deepget.umd.js",
-  "module": "dist/deepget.m.js",
+  "main": "dist/dpgt.js",
+  "browser": "dist/dpgt.umd.js",
+  "module": "dist/dpgt.m.js",
   "scripts": {
     "test": "echo \"No tests written yet\" && exit 0",
     "start": "microbundle watch",
@@ -21,7 +21,8 @@
     "properties",
     "object",
     "javascript",
-    "helpers"
+    "helpers",
+    "my real name is deepget npm"
   ],
   "author": "Jeremias Menichelli",
   "license": "MIT",
