@@ -35,19 +35,24 @@ const cartoon = {
 };
 
 deepget(cartoon, 'characters.rick.lastName');
-// 'Sanchez'
+// Sanchez
 ```
 
 You can also use an array as a key path.
 
 ```js
 deepget(cartoon, [ 'characters', 'rick', 'lastName' ]);
-// 'Sanchez'
+// Sanchez
 ```
 
 Default values are supported too as a thrid optional argument.
 
 ```js
 deepget(cartoon, [ 'characters', 'beth' ], 'Not found');
-// 'Not found'
+// Not found
 ```
+
+## TODO
+
+- Write tests
+- Write contributing guide
