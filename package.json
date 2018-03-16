@@ -1,6 +1,6 @@
 {
   "name": "dpgt",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Small package to get deep nested properties from JavaScript objects",
   "main": "dist/dpgt.js",
   "browser": "dist/dpgt.umd.js",
