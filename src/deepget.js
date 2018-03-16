@@ -6,11 +6,11 @@ function deepget(obj, path, defaultValue) {
     if (lastReference[ props[ i ] ] !== undefined) {
       lastReference = lastReference[props[i]];
     } else {
-      return defaultValue || null;
+      return defaultValue || undefined;
     }
   }
 
   return lastReference;
 }
 
-export default deepget
+export default deepget;
